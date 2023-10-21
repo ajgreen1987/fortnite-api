@@ -11,7 +11,7 @@ import SwiftUI
 struct Sweaty_LlamaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FortniteView()
         }
     }
 }
