@@ -148,10 +148,10 @@
 			isa = PBXGroup;
 			children = (
 				BA14EEB22AE36AFF0020EAAC /* FortniteAPI.swift */,
+				BA14EEA72AE1FFDE0020EAAC /* FortniteAPIv2.swift */,
 				BA14EEA12AE1FE800020EAAC /* BaseClient.swift */,
 				BA14EEA92AE200CE0020EAAC /* FortniteAPIEndpoints.swift */,
 				BA14EEA32AE1FF110020EAAC /* APIUtils.swift */,
-				BA14EEA72AE1FFDE0020EAAC /* FortniteAPIv2.swift */,
 			);
 			path = "API Client";
 			sourceTree = "<group>";

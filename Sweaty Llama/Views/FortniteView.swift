@@ -15,7 +15,6 @@ struct FortniteView: View {
             List(viewModel.items) { item in
                 Text(item.name)
             }
-            // ... rest of your code ...
         }
         .onAppear {
             Task {
