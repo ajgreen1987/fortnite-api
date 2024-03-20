@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA14EE772AE1FA3C0020EAAC /* Sweaty_LlamaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA14EE762AE1FA3C0020EAAC /* Sweaty_LlamaApp.swift */; };
+		BA14EE792AE1FA3C0020EAAC /* FortniteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA14EE782AE1FA3C0020EAAC /* FortniteView.swift */; };
+		BA14EE7B2AE1FA3F0020EAAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA14EE7A2AE1FA3F0020EAAC /* Assets.xcassets */; };
+		BA14EE7E2AE1FA3F0020EAAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA14EE7D2AE1FA3F0020EAAC /* Preview Assets.xcassets */; };
+		BA14EE882AE1FA3F0020EAAC /* Sweaty_LlamaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA14EE872AE1FA3F0020EAAC /* Sweaty_LlamaTests.swift */; };
+		BA14EE922AE1FA3F0020EAAC /* Sweaty_LlamaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA14EE912AE1FA3F0020EAAC /* Sweaty_LlamaUITests.swift */; };
+		BA14EE942AE1FA3F0020EAAC /* Sweaty_LlamaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA14EE932AE1FA3F0020EAAC /* Sweaty_LlamaUITestsLaunchTests.swift */; };
+		BA14EEA22AE1FE800020EAAC /* BaseClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA14EEA12AE1FE800020EAAC /* BaseClient.swift */; };
+		BA14EEA42AE1FF110020EAAC /* APIUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA14EEA32AE1FF110020EAAC /* APIUtils.swift */; };
+		BA14EEA82AE1FFDE0020EAAC /* FortniteAPIv2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA14EEA72AE1FFDE0020EAAC /* FortniteAPIv2.swift */; };
+		BA14EEAA2AE200CE0020EAAC /* FortniteAPIEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA14EEA92AE200CE0020EAAC /* FortniteAPIEndpoints.swift */; };
+		BA14EEAE2AE207BC0020EAAC /* FortniteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA14EEAD2AE207BC0020EAAC /* FortniteViewModel.swift */; };
+		BA14EEB12AE207EC0020EAAC /* FortniteItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA14EEB02AE207EC0020EAAC /* FortniteItem.swift */; };
+		BA14EEB32AE36AFF0020EAAC /* FortniteAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA14EEB22AE36AFF0020EAAC /* FortniteAPI.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA14EE842AE1FA3F0020EAAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA14EE6B2AE1FA3C0020EAAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA14EE722AE1FA3C0020EAAC;
+			remoteInfo = "Sweaty Llama";
+		};
+		BA14EE8E2AE1FA3F0020EAAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA14EE6B2AE1FA3C0020EAAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA14EE722AE1FA3C0020EAAC;
+			remoteInfo = "Sweaty Llama";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA14EE732AE1FA3C0020EAAC /* Sweaty Llama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sweaty Llama.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA14EE762AE1FA3C0020EAAC /* Sweaty_LlamaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sweaty_LlamaApp.swift; sourceTree = "<group>"; };
+		BA14EE782AE1FA3C0020EAAC /* FortniteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortniteView.swift; sourceTree = "<group>"; };
+		BA14EE7A2AE1FA3F0020EAAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA14EE7D2AE1FA3F0020EAAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA14EE832AE1FA3F0020EAAC /* Sweaty LlamaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sweaty LlamaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA14EE872AE1FA3F0020EAAC /* Sweaty_LlamaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sweaty_LlamaTests.swift; sourceTree = "<group>"; };
+		BA14EE8D2AE1FA3F0020EAAC /* Sweaty LlamaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sweaty LlamaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA14EE912AE1FA3F0020EAAC /* Sweaty_LlamaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sweaty_LlamaUITests.swift; sourceTree = "<group>"; };
+		BA14EE932AE1FA3F0020EAAC /* Sweaty_LlamaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sweaty_LlamaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BA14EEA12AE1FE800020EAAC /* BaseClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseClient.swift; sourceTree = "<group>"; };
+		BA14EEA32AE1FF110020EAAC /* APIUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIUtils.swift; sourceTree = "<group>"; };
+		BA14EEA72AE1FFDE0020EAAC /* FortniteAPIv2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortniteAPIv2.swift; sourceTree = "<group>"; };
+		BA14EEA92AE200CE0020EAAC /* FortniteAPIEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortniteAPIEndpoints.swift; sourceTree = "<group>"; };
+		BA14EEAD2AE207BC0020EAAC /* FortniteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortniteViewModel.swift; sourceTree = "<group>"; };
+		BA14EEB02AE207EC0020EAAC /* FortniteItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortniteItem.swift; sourceTree = "<group>"; };
+		BA14EEB22AE36AFF0020EAAC /* FortniteAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FortniteAPI.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA14EE702AE1FA3C0020EAAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA14EE802AE1FA3F0020EAAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA14EE8A2AE1FA3F0020EAAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA14EE6A2AE1FA3C0020EAAC = {
+			isa = PBXGroup;
+			children = (
+				BA14EE752AE1FA3C0020EAAC /* Sweaty Llama */,
+				BA14EE862AE1FA3F0020EAAC /* Sweaty LlamaTests */,
+				BA14EE902AE1FA3F0020EAAC /* Sweaty LlamaUITests */,
+				BA14EE742AE1FA3C0020EAAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA14EE742AE1FA3C0020EAAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA14EE732AE1FA3C0020EAAC /* Sweaty Llama.app */,
+				BA14EE832AE1FA3F0020EAAC /* Sweaty LlamaTests.xctest */,
+				BA14EE8D2AE1FA3F0020EAAC /* Sweaty LlamaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA14EE752AE1FA3C0020EAAC /* Sweaty Llama */ = {
+			isa = PBXGroup;
+			children = (
+				BA14EEAF2AE207D00020EAAC /* Objects */,
+				BA14EEAC2AE207990020EAAC /* View Models */,
+				BA14EEAB2AE207900020EAAC /* Views */,
+				BA14EEA02AE1FE6B0020EAAC /* API Client */,
+				BA14EE762AE1FA3C0020EAAC /* Sweaty_LlamaApp.swift */,
+				BA14EE7A2AE1FA3F0020EAAC /* Assets.xcassets */,
+				BA14EE7C2AE1FA3F0020EAAC /* Preview Content */,
+			);
+			path = "Sweaty Llama";
+			sourceTree = "<group>";
+		};
+		BA14EE7C2AE1FA3F0020EAAC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BA14EE7D2AE1FA3F0020EAAC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BA14EE862AE1FA3F0020EAAC /* Sweaty LlamaTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA14EE872AE1FA3F0020EAAC /* Sweaty_LlamaTests.swift */,
+			);
+			path = "Sweaty LlamaTests";
+			sourceTree = "<group>";
+		};
+		BA14EE902AE1FA3F0020EAAC /* Sweaty LlamaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA14EE912AE1FA3F0020EAAC /* Sweaty_LlamaUITests.swift */,
+				BA14EE932AE1FA3F0020EAAC /* Sweaty_LlamaUITestsLaunchTests.swift */,
+			);
+			path = "Sweaty LlamaUITests";
+			sourceTree = "<group>";
+		};
+		BA14EEA02AE1FE6B0020EAAC /* API Client */ = {
+			isa = PBXGroup;
+			children = (
+				BA14EEB22AE36AFF0020EAAC /* FortniteAPI.swift */,
+				BA14EEA72AE1FFDE0020EAAC /* FortniteAPIv2.swift */,
+				BA14EEA12AE1FE800020EAAC /* BaseClient.swift */,
+				BA14EEA92AE200CE0020EAAC /* FortniteAPIEndpoints.swift */,
+				BA14EEA32AE1FF110020EAAC /* APIUtils.swift */,
+			);
+			path = "API Client";
+			sourceTree = "<group>";
+		};
+		BA14EEAB2AE207900020EAAC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BA14EE782AE1FA3C0020EAAC /* FortniteView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BA14EEAC2AE207990020EAAC /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				BA14EEAD2AE207BC0020EAAC /* FortniteViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		BA14EEAF2AE207D00020EAAC /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				BA14EEB02AE207EC0020EAAC /* FortniteItem.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA14EE722AE1FA3C0020EAAC /* Sweaty Llama */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA14EE972AE1FA3F0020EAAC /* Build configuration list for PBXNativeTarget "Sweaty Llama" */;
+			buildPhases = (
+				BA14EE6F2AE1FA3C0020EAAC /* Sources */,
+				BA14EE702AE1FA3C0020EAAC /* Frameworks */,
+				BA14EE712AE1FA3C0020EAAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sweaty Llama";
+			productName = "Sweaty Llama";
+			productReference = BA14EE732AE1FA3C0020EAAC /* Sweaty Llama.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA14EE822AE1FA3F0020EAAC /* Sweaty LlamaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA14EE9A2AE1FA3F0020EAAC /* Build configuration list for PBXNativeTarget "Sweaty LlamaTests" */;
+			buildPhases = (
+				BA14EE7F2AE1FA3F0020EAAC /* Sources */,
+				BA14EE802AE1FA3F0020EAAC /* Frameworks */,
+				BA14EE812AE1FA3F0020EAAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA14EE852AE1FA3F0020EAAC /* PBXTargetDependency */,
+			);
+			name = "Sweaty LlamaTests";
+			productName = "Sweaty LlamaTests";
+			productReference = BA14EE832AE1FA3F0020EAAC /* Sweaty LlamaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA14EE8C2AE1FA3F0020EAAC /* Sweaty LlamaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA14EE9D2AE1FA3F0020EAAC /* Build configuration list for PBXNativeTarget "Sweaty LlamaUITests" */;
+			buildPhases = (
+				BA14EE892AE1FA3F0020EAAC /* Sources */,
+				BA14EE8A2AE1FA3F0020EAAC /* Frameworks */,
+				BA14EE8B2AE1FA3F0020EAAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA14EE8F2AE1FA3F0020EAAC /* PBXTargetDependency */,
+			);
+			name = "Sweaty LlamaUITests";
+			productName = "Sweaty LlamaUITests";
+			productReference = BA14EE8D2AE1FA3F0020EAAC /* Sweaty LlamaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA14EE6B2AE1FA3C0020EAAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					BA14EE722AE1FA3C0020EAAC = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					BA14EE822AE1FA3F0020EAAC = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = BA14EE722AE1FA3C0020EAAC;
+					};
+					BA14EE8C2AE1FA3F0020EAAC = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = BA14EE722AE1FA3C0020EAAC;
+					};
+				};
+			};
+			buildConfigurationList = BA14EE6E2AE1FA3C0020EAAC /* Build configuration list for PBXProject "Sweaty Llama" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA14EE6A2AE1FA3C0020EAAC;
+			productRefGroup = BA14EE742AE1FA3C0020EAAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA14EE722AE1FA3C0020EAAC /* Sweaty Llama */,
+				BA14EE822AE1FA3F0020EAAC /* Sweaty LlamaTests */,
+				BA14EE8C2AE1FA3F0020EAAC /* Sweaty LlamaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA14EE712AE1FA3C0020EAAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA14EE7E2AE1FA3F0020EAAC /* Preview Assets.xcassets in Resources */,
+				BA14EE7B2AE1FA3F0020EAAC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA14EE812AE1FA3F0020EAAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA14EE8B2AE1FA3F0020EAAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA14EE6F2AE1FA3C0020EAAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA14EEA42AE1FF110020EAAC /* APIUtils.swift in Sources */,
+				BA14EEB32AE36AFF0020EAAC /* FortniteAPI.swift in Sources */,
+				BA14EEAE2AE207BC0020EAAC /* FortniteViewModel.swift in Sources */,
+				BA14EE792AE1FA3C0020EAAC /* FortniteView.swift in Sources */,
+				BA14EEA22AE1FE800020EAAC /* BaseClient.swift in Sources */,
+				BA14EEAA2AE200CE0020EAAC /* FortniteAPIEndpoints.swift in Sources */,
+				BA14EEA82AE1FFDE0020EAAC /* FortniteAPIv2.swift in Sources */,
+				BA14EE772AE1FA3C0020EAAC /* Sweaty_LlamaApp.swift in Sources */,
+				BA14EEB12AE207EC0020EAAC /* FortniteItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA14EE7F2AE1FA3F0020EAAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA14EE882AE1FA3F0020EAAC /* Sweaty_LlamaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA14EE892AE1FA3F0020EAAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA14EE922AE1FA3F0020EAAC /* Sweaty_LlamaUITests.swift in Sources */,
+				BA14EE942AE1FA3F0020EAAC /* Sweaty_LlamaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA14EE852AE1FA3F0020EAAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA14EE722AE1FA3C0020EAAC /* Sweaty Llama */;
+			targetProxy = BA14EE842AE1FA3F0020EAAC /* PBXContainerItemProxy */;
+		};
+		BA14EE8F2AE1FA3F0020EAAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA14EE722AE1FA3C0020EAAC /* Sweaty Llama */;
+			targetProxy = BA14EE8E2AE1FA3F0020EAAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BA14EE952AE1FA3F0020EAAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA14EE962AE1FA3F0020EAAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA14EE982AE1FA3F0020EAAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sweaty Llama/Preview Content\"";
+				DEVELOPMENT_TEAM = 4H9QYQ35YY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmbstudios.Sweaty-Llama";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA14EE992AE1FA3F0020EAAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sweaty Llama/Preview Content\"";
+				DEVELOPMENT_TEAM = 4H9QYQ35YY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmbstudios.Sweaty-Llama";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA14EE9B2AE1FA3F0020EAAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4H9QYQ35YY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmbstudios.Sweaty-LlamaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sweaty Llama.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sweaty Llama";
+			};
+			name = Debug;
+		};
+		BA14EE9C2AE1FA3F0020EAAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4H9QYQ35YY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmbstudios.Sweaty-LlamaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sweaty Llama.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sweaty Llama";
+			};
+			name = Release;
+		};
+		BA14EE9E2AE1FA3F0020EAAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4H9QYQ35YY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmbstudios.Sweaty-LlamaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sweaty Llama";
+			};
+			name = Debug;
+		};
+		BA14EE9F2AE1FA3F0020EAAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4H9QYQ35YY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmbstudios.Sweaty-LlamaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sweaty Llama";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA14EE6E2AE1FA3C0020EAAC /* Build configuration list for PBXProject "Sweaty Llama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA14EE952AE1FA3F0020EAAC /* Debug */,
+				BA14EE962AE1FA3F0020EAAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA14EE972AE1FA3F0020EAAC /* Build configuration list for PBXNativeTarget "Sweaty Llama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA14EE982AE1FA3F0020EAAC /* Debug */,
+				BA14EE992AE1FA3F0020EAAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA14EE9A2AE1FA3F0020EAAC /* Build configuration list for PBXNativeTarget "Sweaty LlamaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA14EE9B2AE1FA3F0020EAAC /* Debug */,
+				BA14EE9C2AE1FA3F0020EAAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA14EE9D2AE1FA3F0020EAAC /* Build configuration list for PBXNativeTarget "Sweaty LlamaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA14EE9E2AE1FA3F0020EAAC /* Debug */,
+				BA14EE9F2AE1FA3F0020EAAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA14EE6B2AE1FA3C0020EAAC /* Project object */;
+}
